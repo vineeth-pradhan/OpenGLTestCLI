@@ -12,7 +12,7 @@ void processInput(GLFWwindow *window) {
         glfwSetWindowShouldClose(window, true);
 }
 
-// g++ -o main HelloWorld.cc glad.c -I/Users/vineeth/Projects/CPPIncludes/OpenGL -L/Users/vineeth/Projects/CPPIncludes/OpenGL/Libs -lglfw3 -framework Cocoa -framework IOKit
+// g++ -o main Window.cc glad.c -I/Users/vineeth/Projects/CPPIncludes/OpenGL -L/Users/vineeth/Projects/CPPIncludes/OpenGL/Libs -lglfw3 -framework Cocoa -framework IOKit
 int main()
 {
   if(glfwInit() == 0) {
